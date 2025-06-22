@@ -11,14 +11,11 @@ int main(int argc, char** argv){
 
   srand(time(NULL));
                                      
-  if(argc >= 2) {
-    path = argv[1];
-  }
-  if(argc >=3 ) {
-    base = atoi(argv[2]);
-  }
+  if(argc >= 2) base = atoi(argv[1]);
+  if(argc >=3 ) path = argv[2];
+  
 
-  printf("USING DATABASE: %s\n\n", path);
+  printf("Using database: %s\n\n", path);
 
   int lines_count;
   char** lines = get_lines(path, &lines_count);
@@ -27,9 +24,10 @@ int main(int argc, char** argv){
   int questions_count = get_questions_count(lines, lines_count);
 
   if(base > questions_count) {
-    printf("Not enough questions available. Base set to %d\n\n", questions_count);
+    printf("Not enough questions available.\n");
     base = questions_count;
   }
+  printf("Base set to %d\n\n", base);
 
   free_lines(lines, lines_count);
 
