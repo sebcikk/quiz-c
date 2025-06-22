@@ -1,4 +1,5 @@
 *.o
 *.obj
 *.out
+*.old
 quiz

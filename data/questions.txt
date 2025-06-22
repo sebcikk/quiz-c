@@ -1,410 +1,324 @@
-Ile bajtów w pamięci zajmuje int?
+Jakiego nagłówka należy użyć do obsługi wejścia/wyjścia w języku C?
+4
+stdio.h
+stdlib.h
+string.h
+math.h
+0
+Który z poniższych nagłówków zawiera funkcję printf?
+3
+stdlib.h
+stdio.h
+math.h
+1
+Który zapis funkcji main jest poprawny w języku C?
+3
+int main()
+void main()
+int main(void)
+2
+Jaki znak służy do włączenia plików nagłówkowych w języku C?
+3
+%
+#include
+#
+2
+Która funkcja służy do wypisania tekstu na ekran?
+4
+print()
+output()
+printf()
+show()
+2
+Która funkcja odczytuje pojedynczy znak ze standardowego wejścia?
+3
+getchar()
+get()
+scanf()
+0
+Jak reprezentowane są napisy (łańcuchy znaków) w języku C?
+3
+Jako tablica liczb całkowitych
+Jako tablica znaków zakończona znakiem null
+Jako wskaźnik na int
+1
+Jaki jest cel znaku `\0` w napisie?
+4
+Kończy napis
+Rozpoczyna napis
+Dzieli napis na części
+Służy do wcięć
+0
+Jaka jest wartość kodu ASCII dla znaku nowej linii?
+4
+13
+10
+32
+0
+1
+Która funkcja porównuje dwa napisy?
+4
+strcmp()
+strcomp()
+string_compare()
+strcmpstr()
+0
+Który typ zmiennej służy do przechowywania liczb całkowitych?
+4
+int
+float
+char
+double
+0
+Który typ służy do przechowywania znaków?
+3
+int
+char
+string
+1
+Która instrukcja deklaruje zmienną o wartości 10?
+4
+int x = 10;
+x = int 10;
+int = 10 x;
+10 = int x;
+0
+Co wypisze `printf("%d", 5 + 3);`?
+3
+53
+8
+błąd kompilacji
+1
+Który z operatorów służy do przypisania wartości?
+4
+==
+=
++=
+::
+1
+Który z operatorów oznacza modulo (resztę z dzielenia)?
+3
+%
+/
+*
+0
+Który z tych zapisów warunkowych jest poprawny?
+4
+if x == 1
+if (x == 1)
+if x = 1
+if x: 1
+1
+Jakiego typu danych jest wynik operacji `5 / 2` w C?
+3
+int
+float
+char
+0
+Jak zapisać wartość logiczną „prawda” w C?
+3
+1
+true
+TRUE
+0
+Co oznacza `%s` w funkcji `printf()`?
+4
+liczbę całkowitą
+liczbę zmiennoprzecinkową
+znak
+łańcuch znaków
+3
+Jaka funkcja służy do wczytania całkowitej liczby od użytkownika?
+4
+scanf()
+gets()
+printf()
+cin
+0
+Który zapis wczytuje dwie zmienne typu int?
+4
+scanf("%d %d", &a, &b);
+scanf("%d %d", a, b);
+scanf("%s %s", &a, &b);
+scanf("%f %f", &a, &b);
+0
+Jaki znak kończy każdy wiersz kodu w C?
+3
+.
+;
+,
+1
+Która zmienna przechowa tekst "Ala"?
+3
+char tekst[4] = "Ala";
+char tekst = "Ala";
+string tekst = "Ala";
+0
+Co oznacza `char napis[] = "Hello";`?
+4
+Tablica znaków zakończona '\0'
+Jeden znak
+Zmienna int
+Tablica intów
+0
+Jaki jest indeks pierwszego znaku w tablicy znaków?
+3
+0
+1
+Nie ma indeksu
+0
+Która funkcja wczytuje cały wiersz tekstu?
+3
+fgets()
+scanf()
+printf()
+0
+Czym różni się `fgets()` od `scanf("%s", ...)`?
+4
+fgets() wczytuje całe linie, scanf nie
+scanf() wczytuje więcej niż fgets
+fgets() wczytuje liczby, scanf tylko znaki
+brak różnicy
+0
+Jak najlepiej wypisać napis zapisany w `char str[]`?
+3
+printf("%s", str);
+printf("%c", str);
+print(str);
+0
+Co robi funkcja `strlen()`?
+4
+Zwraca długość łańcucha
+Zwraca znak końcowy
+Porównuje dwa napisy
+Zamienia napis na liczby
+0
+Czym jest język asemblera?
+4
+Język wysokiego poziomu
+Symboliczny zapis rozkazów procesora
+Zestaw makr kompilatora
+Graficzna reprezentacja kodu
+1
+Czym różni się float od double?
+3
+Float zajmuje mniej miejsca i ma mniejszą precyzję
+Double jest typem znakowym
+Float obsługuje tylko liczby dodatnie
+0
+Która funkcja wczytuje pojedynczy znak ze standardowego wejścia?
+4
+putchar()
+printf()
+getchar()
+scanf()
+2
+Co oznacza znak '\0' w tablicy znaków?
+4
+Znak nowej linii
+Pusty znak
+Znak końca napisu
+Tabulator
+2
+Jaki jest wynik działania strlen("abc")?
 4
 2
+3
 4
-6
-8
+5
 1
-Co oznacza skrót ASCII?
-4
-American Standard Code for Information Interchange
-Advanced System for Computer Interface
-Automatic Syntax Checker Interface
-Applied Software Code Integration
-0
-Który typ zmiennej służy do przechowywania liczby zmiennoprzecinkowej podwójnej precyzji?
+Jakie są typy danych w języku C?
 3
-float
-double
-int
-1
-Jakie jest domyślne wartościowanie zmiennych lokalnych w C?
+Typy niskiego poziomu
+Typy użytkownika
+Typy wbudowane
+2
+Która biblioteka zawiera funkcję printf?
 3
-0
-Losowa wartość (śmieciowa)
-NULL
-1
-Co zwraca funkcja malloc, gdy nie może przydzielić pamięci?
-3
-NULL
-0
--1
-0
-Jaka jest różnica między `=` a `==` w C?
-3
-Przypisanie i porównanie
-Porównanie i przypisanie
-Operator logiczny i arytmetyczny
-0
-Co oznacza `*` w deklaracji funkcji `int func(int *p)`?
-4
-Wskaźnik na zmienną typu int
-Adres zmiennej typu int
-Operator bitowy AND
-Referencję
-0
-Co oznacza `const` w deklaracji `const int x`?
-3
-Stałą wartość, której nie można zmienić
-Zmienną lokalną
-Wskaźnik na int
-0
-Co to jest wskaźnik w języku C?
-4
-Zmienne przechowujące adresy pamięci
-Typ zmiennej całkowitej
-Funkcja zwracająca wartość
-Operacja arytmetyczna
-0
-Jakiego typu zwraca funkcja `main`?
-3
-void
-int
-char
-1
-Co robi operator `sizeof`?
-3
-Zwraca rozmiar zmiennej lub typu w bajtach
-Tworzy zmienną lokalną
-Przekształca typ zmiennej
-0
-Jak zadeklarować wskaźnik na funkcję?
-3
-int (*func_ptr)(int);
-int *func_ptr(int);
-int func_ptr*();
-0
-Co oznacza słowo kluczowe `volatile`?
-3
-Zmienia zmienną na stałą
-Informuje kompilator, że zmienna może się zmieniać poza kontrolą programu
-Definiuje zmienną lokalną
-1
-Jakie jest domyślne wartościowanie zmiennych globalnych?
-3
-0
-Losowa wartość
-NULL
-0
-Co robi funkcja `strcpy`?
-3
-Kopiuje zawartość jednego łańcucha znaków do drugiego
-Porównuje dwa łańcuchy znaków
-Oblicza długość łańcucha znaków
-0
-Jaką funkcję użyjesz do dynamicznego przydzielenia pamięci?
-3
-malloc
-free
-printf
-0
-Jak zakończyć instrukcję w C?
-3
-;
-{}
-()
-0
-Jaka jest różnica między `struct` a `union`?
-3
-`struct` zajmuje sumę wszystkich pól, `union` zajmuje pamięć największego pola
-`struct` to wskaźnik, `union` to tablica
-`struct` jest typem zmiennej, `union` jest funkcją
-0
-Co robi operator `*` w kontekście wskaźników?
-4
-Definiuje wskaźnik
-Odwołuje się do wartości wskazywanej przez wskaźnik
-Mnoży dwie liczby
-Inkrementuje zmienną
-1
-Co to jest rekurencja?
-3
-Funkcja wywołująca samą siebie
-Pętla w funkcji
-Zmienna lokalna
-0
-Jakiego typu jest wartość zwracana przez funkcję `scanf`?
-3
-int
-void
-char
-0
-Co oznacza `static` przy deklaracji zmiennej wewnątrz funkcji?
-3
-Zmienia zmienną na globalną
-Zachowuje wartość zmiennej między wywołaniami funkcji
-Definiuje wskaźnik
-1
-Co to jest wskaźnik NULL?
-3
-Wskaźnik wskazujący na adres 0
-Wskaźnik na pierwszy element tablicy
-Stała wartość 1
-0
-Co zwraca funkcja `strlen`?
-3
-Długość łańcucha znaków bez znaku końca '\0'
-Wartość ASCII pierwszego znaku
-Całkowitą liczbę bajtów w zmiennej
-0
-Jaki jest wynik działania operatora `&&`?
-3
-Logiczne AND (i)
-Logiczne OR (lub)
-Różnica bitowa
-0
-Jakiego typu jest literał `'A'` w C?
-3
-int
-char
-float
-0
-Co to jest `enum`?
-3
-Typ wyliczeniowy
-Funkcja zwracająca liczbę
-Typ wskaźnika
-0
-Jakiego nagłówka używasz do obsługi funkcji matematycznych, np. `sin()`?
-3
-math.h
-stdio.h
 stdlib.h
-0
-Co to jest wskaźnik w języku C?
-4
-Zmienne przechowujące adresy pamięci
-Typ zmiennej całkowitej
-Funkcja zwracająca wartość
-Operacja arytmetyczna
-0
-Jakiego typu zwraca funkcja `main`?
-3
-void
-int
-char
-1
-Co robi operator `sizeof`?
-3
-Zwraca rozmiar zmiennej lub typu w bajtach
-Tworzy zmienną lokalną
-Przekształca typ zmiennej
-0
-Jak zadeklarować wskaźnik na funkcję?
-3
-int (*func_ptr)(int);
-int *func_ptr(int);
-int func_ptr*();
-0
-Co oznacza słowo kluczowe `volatile`?
-3
-Zmienia zmienną na stałą
-Informuje kompilator, że zmienna może się zmieniać poza kontrolą programu
-Definiuje zmienną lokalną
-1
-Jakie jest domyślne wartościowanie zmiennych globalnych?
-3
-0
-Losowa wartość
-NULL
-0
-Co robi funkcja `strcpy`?
-3
-Kopiuje zawartość jednego łańcucha znaków do drugiego
-Porównuje dwa łańcuchy znaków
-Oblicza długość łańcucha znaków
-0
-Jaką funkcję użyjesz do dynamicznego przydzielenia pamięci?
-3
-malloc
-free
-printf
-0
-Jak zakończyć instrukcję w C?
-3
-;
-{}
-()
-0
-Jaka jest różnica między `struct` a `union`?
-3
-`struct` zajmuje sumę wszystkich pól, `union` zajmuje pamięć największego pola
-`struct` to wskaźnik, `union` to tablica
-`struct` jest typem zmiennej, `union` jest funkcją
-0
-Co robi operator `*` w kontekście wskaźników?
-4
-Definiuje wskaźnik
-Odwołuje się do wartości wskazywanej przez wskaźnik
-Mnoży dwie liczby
-Inkrementuje zmienną
-1
-Co to jest rekurencja?
-3
-Funkcja wywołująca samą siebie
-Pętla w funkcji
-Zmienna lokalna
-0
-Jakiego typu jest wartość zwracana przez funkcję `scanf`?
-3
-int
-void
-char
-0
-Co oznacza `static` przy deklaracji zmiennej wewnątrz funkcji?
-3
-Zmienia zmienną na globalną
-Zachowuje wartość zmiennej między wywołaniami funkcji
-Definiuje wskaźnik
-1
-Co to jest wskaźnik NULL?
-3
-Wskaźnik wskazujący na adres 0
-Wskaźnik na pierwszy element tablicy
-Stała wartość 1
-0
-Co zwraca funkcja `strlen`?
-3
-Długość łańcucha znaków bez znaku końca '\0'
-Wartość ASCII pierwszego znaku
-Całkowitą liczbę bajtów w zmiennej
-0
-Jaki jest wynik działania operatora `&&`?
-3
-Logiczne AND (i)
-Logiczne OR (lub)
-Różnica bitowa
-0
-Jakiego typu jest literał `'A'` w C?
-3
-int
-char
-float
-0
-Co to jest `enum`?
-3
-Typ wyliczeniowy
-Funkcja zwracająca liczbę
-Typ wskaźnika
-0
-Jakiego nagłówka używasz do obsługi funkcji matematycznych, np. `sin()`?
-3
-math.h
+string.h
 stdio.h
+2
+Które z poniższych to poprawne inicjalizowanie napisu?
+3
+char s[] = "abc";
+char s = 'abc';
+string s = "abc";
+0
+Czym jest funkcja main() w programie C?
+4
+Punkt końcowy programu
+Punkt startowy programu
+Wyjątek w programie
+Stała globalna
+1
+Która z poniższych funkcji porównuje dwa napisy?
+3
+strcat()
+strcmp()
+strlen()
+1
+Która z poniższych instrukcji służy do wyboru jednej z wielu możliwości?
+4
+if
+for
+switch
+while
+2
+Która pętla wykona się co najmniej raz?
+3
+for
+while
+do...while
+2
+Jakie typy danych są dostępne w języku C?
+4
+char, int, float, double
+int, float, complex, string
+byte, int, double, object
+boolean, int, float, real
+0
+Co oznacza operator ++ w języku C?
+3
+Zwiększenie wartości o 2
+Zwiększenie wartości o 1
+Zmiana znaku liczby
+1
+Jak można przekazać dane do funkcji?
+4
+Przez wartość
+Przez referencję
+Przez plik
+Przez wskaźnik
+0
+Jaki jest efekt instrukcji `continue` w pętli?
+3
+Kończy działanie programu
+Kończy działanie funkcji
+Przechodzi do kolejnej iteracji pętli
+2
+Jaką wartość logiczną ma `0` w C?
+2
+true
+false
+1
+Czym różni się `while` od `do...while`?
+3
+`while` nie sprawdza warunku
+`do...while` wykonuje się co najmniej raz
+`do...while` nigdy się nie wykonuje
+1
+Czym jest wskaźnik w języku C?
+3
+Zmienna przechowująca adres innej zmiennej
+Stała typu liczbowego
+Typ danych do obliczeń zmiennoprzecinkowych
+0
+Jakiego nagłówka potrzebujemy, aby korzystać z `printf`?
+4
+stdio.h
+math.h
 stdlib.h
-0
-Co oznacza operator `&` w wyrażeniu `&x`?
-3
-Adres zmiennej `x`
-Operator bitowy AND
-Wartość zmiennej `x`
-0
-Co zwraca funkcja `malloc` gdy zabraknie pamięci?
-3
-NULL
-0
--1
-0
-Co to jest wskaźnik dziki (dangling pointer)?
-3
-Wskaźnik, który wskazuje na zwolnioną pamięć
-Wskaźnik na NULL
-Wskaźnik na zmienną globalną
-0
-Jakiego typu jest wskaźnik `void*`?
-3
-Wskaźnik na nieokreślony typ
-Wskaźnik na int
-Typ liczbowy
-0
-Co oznacza `typedef`?
-3
-Tworzy alias typu
-Definiuje zmienną
-Inicjuje wskaźnik
-0
-Jak działa operator `++i` w C?
-3
-Zwiększa wartość `i` przed użyciem
-Zwiększa wartość `i` po użyciu
-Nie zmienia wartości `i`
-0
-Co to jest rekurencja ogonowa (tail recursion)?
-3
-Rekurencja, gdzie wywołanie rekurencyjne jest ostatnią instrukcją
-Rekurencja bez warunku zakończenia
-Rekurencja z pętlą
-0
-Jak zadeklarować wskaźnik na tablicę?
-3
-int (*p)[10];
-int *p[10];
-int p*[];
-0
-Jaka jest różnica między `malloc` a `calloc`?
-3
-`calloc` zeruje zaalokowaną pamięć, `malloc` nie
-`malloc` zeruje pamięć, `calloc` nie
-Obie są takie same
-0
-Co to jest segmentacja (segmentation fault)?
-3
-Błąd dostępu do pamięci
-Błąd składni
-Błąd logiczny
-0
-Co oznacza słowo kluczowe `register`?
-3
-Sugeruje przechowywanie zmiennej w rejestrze CPU
-Definiuje zmienną globalną
-Deklaruje wskaźnik
-0
-Co zwraca funkcja `printf`?
-3
-Liczbę wypisanych znaków
-Nic (void)
-Liczbę argumentów
-0
-Co oznacza `extern`?
-3
-Deklaruje zmienną zdefiniowaną w innym pliku
-Definiuje zmienną lokalną
-Inicjuje wskaźnik
-0
-Jakiego typu jest zmienna `const int`?
-3
-Stała wartość typu int
-Wskaźnik
-Zmiennej lokalnej
-0
-Co robi operator `->`?
-3
-Dostęp do członka struktury przez wskaźnik
-Operator bitowy OR
-Mnożenie wskaźników
-0
-Co oznacza słowo kluczowe `break`?
-3
-Przerywa wykonanie pętli lub switch
-Kończy funkcję
-Pominięcie instrukcji
-0
-Jakiego typu jest literał `0` w C?
-3
-int
-char
-float
-0
-Co robi operator `%`?
-3
-Modulo (reszta z dzielenia)
-Dzielenie
-Mnożenie
-0
-Co oznacza słowo kluczowe `continue`?
-3
-Pomija resztę iteracji pętli i przechodzi do następnej
-Kończy pętlę
-Definiuje wskaźnik
+string.h
 0
 
