@@ -5,6 +5,7 @@ made by sebcikk
 ./quiz [QUESTIONS_BASE] [PATH_TO_DATABASE]  
 
 ### Default settings  
+To run with default settings simply run ./quiz  
 QUESTIONS_BASE = 20  
 PATH_TO_DATABASE = /data/questions.txt  
 
